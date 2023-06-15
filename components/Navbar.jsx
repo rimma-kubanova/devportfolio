@@ -13,6 +13,9 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   }
+
+
+
   return (
     <div className='fixed w-full h-24 shadow-xl z-[100] bg-white/50 backdrop-blur-lg'>
         <div className='flex justify-between items-center w-full h-full px-8 2xl:px-16'>

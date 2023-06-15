@@ -1,6 +1,4 @@
 import React from 'react'
-import pokemon from '../public/assets/pokemon.png'
-import Image from 'next/image'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {AiOutlineMail } from 'react-icons/ai'
 import Link from 'next/link'
