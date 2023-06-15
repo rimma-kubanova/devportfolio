@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import aboutme from '@public/assets/aboutme.JPG'
+import aboutme from '@public/assets/aboutme.jpg'
 const About = () => {
   return (
     <div id='about' className='w-full p-4 items-center py-16 bg-slate-50'>
