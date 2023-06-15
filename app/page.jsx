@@ -10,7 +10,7 @@ import Contact from '@components/Contact'
 export default function Home() {
   return (
    <div>
-    <Main />
+     {/* <Main /> */}
     <About />
     <Skills />
     <Projects />

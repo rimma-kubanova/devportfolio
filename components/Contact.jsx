@@ -12,22 +12,34 @@ const Contact = () => {
             <p className='text-center text-2xl text-gray-600 py-4'>Feel free to contact me via Email!</p>
         <div>
             <div className='flex items-center justify-center py-4 gap-16'>
-            <Link href='https://www.linkedin.com/in/rimma-kubanova-a531081b5/'>
+            <a
+              href='https://www.linkedin.com/in/rimma-kubanova-a531081b5/'
+              target='_blank'
+              rel='noreferrer'
+            >
                     <div className='bg-white rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedinIn />
         
                     </div>
-                </Link>
-                <Link href='https://github.com/rimma-kubanova'>
+                </a>
+                <a
+              href='https://github.com/rimma-kubanova'
+              target='_blank'
+              rel='noreferrer'
+            >
                     <div className='bg-white rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub />
                     </div>
-                </Link>
-                <Link href='mailto:rimma.kubanova@gmail.com'>
+                </a>
+                <a
+              href='mailto:rimma.kubanova@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
                     <div className='bg-white rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
-                </Link>
+                </a>
             </div>
         </div>
 
