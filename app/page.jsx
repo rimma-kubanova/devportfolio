@@ -10,10 +10,11 @@ import Contact from '@components/Contact'
 export default function Home() {
   return (
    <div>
+    <h1>Works!</h1>
      {/* <Main /> */}
-    <About />
-    <Skills />
-    <Projects />
+   {/* <About /> */}
+  {/* <Skills /> */}
+ {/* <Projects /> */}
  {/* <Contact /> */}
    </div>
   )
